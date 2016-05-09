@@ -1,0 +1,17 @@
+<suite name="NETOB-Functional" verbose="3" preserve-order="true" allow-return-values="true">
+
+	
+	<test name="NEt_OB test">
+		<groups>
+    		<run>
+				<include name="functest" />
+				<exclude name="incomplete" />
+				<exclude name="blocked" />
+    		</run>
+  		</groups>
+ 		<packages>							
+				<package name="testcases"/>
+	 	</packages>
+	</test>
+
+</suite>
