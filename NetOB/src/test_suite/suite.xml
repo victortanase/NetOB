@@ -1,7 +1,7 @@
-<suite name="NETOB-Functional" verbose="3" preserve-order="true" allow-return-values="true">
+<suite name="NETOB_Functional" verbose="3" preserve-order="true" allow-return-values="true">
 
 	
-	<test name="NEt_OB test">
+	<test name="NEt_OB_test">
 		<groups>
     		<run>
 				<include name="functest" />
