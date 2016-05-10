@@ -14,4 +14,16 @@
 	 	</packages>
 	</test>
 
+	<test name="NEt_OB_test_negative">
+		<groups>
+    		<run>
+				<include name="functest2" />
+				<exclude name="incomplete" />
+				<exclude name="blocked" />
+    		</run>
+  		</groups>
+ 		<packages>							
+				<package name="testcases"/>
+	 	</packages>
+	</test>
 </suite>
