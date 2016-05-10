@@ -71,7 +71,7 @@ public class TestCaseNo2 extends TestCase{
 		  Assert.assertEquals(true, true);
 	  }
 
-	  @Test(groups = { "functest",})
+	  @Test(groups = { "functest2",})
 	  public void method41() throws IOException{
 		  Assert.assertTrue("test", true);
 		  Assert.assertEquals(true, true);
