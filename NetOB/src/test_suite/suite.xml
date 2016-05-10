@@ -1,4 +1,4 @@
-<suite name="NETOB_Functional" verbose="3" preserve-order="true" allow-return-values="true">
+<suite name="NETOB_Functional" verbose="5" preserve-order="true" allow-return-values="true">
 
 	
 	<test name="NEt_OB_test">
