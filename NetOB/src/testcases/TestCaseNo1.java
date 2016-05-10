@@ -66,6 +66,7 @@ public class TestCaseNo1 extends TestCase{
 	  
 	  @Test(groups = { "functest",})
 	  public void method31() throws IOException{
+		  System.out.println("gaga cel viteaz si marul otravit");
 		  Assert.assertTrue("test", true);
 		  Assert.assertEquals(true, true);
 	  }
@@ -74,5 +75,6 @@ public class TestCaseNo1 extends TestCase{
 	  public void method41() throws IOException{
 		  Assert.assertTrue("test", true);
 		  Assert.assertEquals(true, true);
+		  System.out.println("ileana cosanzeana si marul muscat");
 	  }
 }
