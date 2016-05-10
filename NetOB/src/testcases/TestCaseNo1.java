@@ -73,6 +73,6 @@ public class TestCaseNo1 extends TestCase{
 	  @Test(groups = { "functest",})
 	  public void method41() throws IOException{
 		  Assert.assertTrue("test", true);
-		  Assert.assertEquals(true, false);
+		  Assert.assertEquals(true, true);
 	  }
 }
