@@ -8,7 +8,9 @@
 	<property name="src" value="${basedir}/src" />
 	<property name="bin" value="${basedir}/bin" />
 	<property name="report-dir" value="${basedir}/Test-Report" />
-	<property name="testng-report-dir" value="${report-dir}/TestNGreport" />
+	<!--property name="testng-report-dir" value="${report-dir}/TestNGreport" /-->
+	<property name="testng-report-dir" value="${basedir}" />
+	
 	
 	<!-- ====== Set the classpath ====  -->
 	<path id="classpath">
