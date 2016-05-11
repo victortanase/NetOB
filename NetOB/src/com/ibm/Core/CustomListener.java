@@ -6,7 +6,6 @@ import org.testng.TestListenerAdapter;
 
 
 
-
 public class CustomListener extends TestListenerAdapter{
 
 	@Override
@@ -20,23 +19,18 @@ public class CustomListener extends TestListenerAdapter{
 
 	@Override
 	public void onTestSuccess(ITestResult tr) {
-		System.out.println(".................................................");
 		CustomLogger.logSuccess("Test: " + tr.getMethod().getMethodName() + " PASSED");
-		System.out.println(".................................................");
 	}
 	
 	@Override
 	public void onTestFailure(ITestResult tr) {
-		System.out.println(".................................................");
-		log("Test '" + tr.getClass().getName() + tr.getName() + "' FAILED");
-		log("Priority of this method is " + tr.getMethod().getPriority());
-		System.out.println(".....");
+		CustomLogger.logSuccess("Test: " + tr.getMethod().getMethodName() + " FAILED");
+
 	}
 	
 	@Override
 	public void onTestSkipped(ITestResult tr) {
-		log("Test '" + tr.getName() + "' SKIPPED");
-		System.out.println(".....");
+		CustomLogger.logSuccess("Test: " + tr.getMethod().getMethodName() + " SKIPPED");
 	}
 	
 	private void log(String methodName) {
