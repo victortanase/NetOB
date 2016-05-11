@@ -12,7 +12,7 @@ public class CustomListener extends TestListenerAdapter{
 	public void onTestStart(ITestResult tr) {
 		log("Test "+ tr.getName() + " Started....");
 		log("Test2 "+ tr.getClass() + " Started....");
-		log("Test3 "+ tr.getTestClass() + " Started....");
+		log("Test3 "+ tr.getTestClass().getName() + " Started....");
 	}	
 	
 	public void log(Object obj){
