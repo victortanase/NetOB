@@ -1,5 +1,8 @@
-<suite name="NETOB-Functional" verbose="3" preserve-order="true" allow-return-values="true">
-
+<suite name="NETOB-Functional" verbose="4" preserve-order="true" allow-return-values="true">
+	
+	<listeners>
+		<listener class-name="com.ibm.Core.CustomListener" />
+	</listeners>
 	
 	<test name="NEt_OB_test">
 		<groups>

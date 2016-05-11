@@ -392,9 +392,5 @@ public class ExcelTest {
 		lista.add(details);
 		test.setSecurityZoneDetails(2, lista);
 		test.workbook.close();
-
 	}
-	
-	
-
 }
