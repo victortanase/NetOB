@@ -13,8 +13,10 @@ public class CustomListener extends TestListenerAdapter{
 		log("Test "+ tr.getName() + " Started....");
 		log("Test2 "+ tr.getClass() + " Started....");
 		log("Test3 "+ tr.getTestClass().getName() + " Started....");
-	}	
+		CustomLogger.logSuccess("Passed:"+ getPassedTests());
+	}
 	
+
 	public void log(Object obj){
 		System.out.println(obj);
 	}
