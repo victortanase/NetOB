@@ -10,7 +10,7 @@ public class CustomListener extends TestListenerAdapter{
 
 	@Override
 	public void onTestStart(ITestResult tr) {
-		log("Test Started....");
+		log("Test "+ tr.getTestName() + " Started....");
 	}	
 	
 	public void log(Object obj){
